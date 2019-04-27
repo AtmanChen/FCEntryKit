@@ -26,6 +26,18 @@
     return [Shadow ActiveWith:[[ShadowValue alloc] initWithColor:[UIColor blackColor] opacity:0.6 radius:0 offset:CGSizeMake(0, 0)]];
 }
 
+- (Animation *)entranceAnimation {
+    return [Animation TranslationWithDuration:0.36];
+}
+
+- (Animation *)exitAnimation {
+    return [Animation TranslationWithDuration:0.36];
+}
+
+- (PopBehavior *)popBehavior {
+    return [PopBehavior AnimationTranslate:[[AnimationTranslate alloc] initWithDuration:0.36 delay:0 anchorPosition:AnchorPositionAutomatic]];
+}
+
 @end
 
 
@@ -282,6 +294,10 @@
         self.translate = translate;
     }
     return self;
+}
+
++ (instancetype)TranslationWithDuration:(NSTimeInterval)duration {
+    return [[Animation alloc] initWithTranslate:[[AnimationTranslate alloc] initWithDuration:duration delay:0 anchorPosition:AnchorPositionAutomatic]];
 }
 
 @end

@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger, FCEntryPosition) {
 };
 
 
-@class UserInteraction, BackgroundStyle, RoundCorners, Shadow;
+@class UserInteraction, BackgroundStyle, RoundCorners, Shadow, Animation, PopBehavior;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FCAttributes : NSObject
@@ -37,6 +37,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) BackgroundStyle *screenBackground;
 @property (nonatomic, strong) RoundCorners *roundCorners;
 @property (nonatomic, strong) Shadow *shadow;
+@property (nonatomic, strong) Animation *entranceAnimation;
+@property (nonatomic, strong) Animation *exitAnimation;
+@property (nonatomic, strong) PopBehavior *popBehavior;
+
 @end
 
 
@@ -149,6 +153,8 @@ typedef NS_ENUM(NSInteger, RoundCornersType) {
 @interface Animation : NSObject
 
 @property (nonatomic, strong) AnimationTranslate *translate;
+
++ (instancetype)TranslationWithDuration:(NSTimeInterval)duration;
 
 - (instancetype)initWithTranslate:(AnimationTranslate *)translate;
 

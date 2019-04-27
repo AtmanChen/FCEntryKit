@@ -33,6 +33,13 @@
 		CEB277C72271D52E00798CF0 /* FCEntryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB277C62271D52E00798CF0 /* FCEntryView.m */; };
 		CEB277CA2271DCB400798CF0 /* CALayer+DropShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB277C92271DCB400798CF0 /* CALayer+DropShadow.m */; };
 		CEB277CD2271DD9100798CF0 /* UIView+DropShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB277CC2271DD9100798CF0 /* UIView+DropShadow.m */; };
+		CEB277D12272AC0200798CF0 /* FCPlainCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB277D02272AC0200798CF0 /* FCPlainCellModel.m */; };
+		CEB277D42272AF6600798CF0 /* FCPlainCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB277D32272AF6600798CF0 /* FCPlainCellStyle.m */; };
+		CEB277F12272BC0400798CF0 /* FCPlainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB277F02272BC0400798CF0 /* FCPlainTableViewCell.m */; };
+		CEB277FE2272C7EE00798CF0 /* NSDictionary+FBLFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB277FC2272C7ED00798CF0 /* NSDictionary+FBLFunctional.m */; };
+		CEB277FF2272C7EE00798CF0 /* NSObject+FBLFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB277FD2272C7ED00798CF0 /* NSObject+FBLFunctional.m */; };
+		CEB279EE227458CB00798CF0 /* FCBottomFloatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB279ED227458CB00798CF0 /* FCBottomFloatViewController.m */; };
+		CEB279F122745A1F00798CF0 /* FCPlainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB279F022745A1F00798CF0 /* FCPlainModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +93,25 @@
 		CEB277C92271DCB400798CF0 /* CALayer+DropShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+DropShadow.m"; sourceTree = "<group>"; };
 		CEB277CB2271DD9100798CF0 /* UIView+DropShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DropShadow.h"; sourceTree = "<group>"; };
 		CEB277CC2271DD9100798CF0 /* UIView+DropShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DropShadow.m"; sourceTree = "<group>"; };
+		CEB277CF2272AC0200798CF0 /* FCPlainCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCPlainCellModel.h; sourceTree = "<group>"; };
+		CEB277D02272AC0200798CF0 /* FCPlainCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCPlainCellModel.m; sourceTree = "<group>"; };
+		CEB277D22272AF6600798CF0 /* FCPlainCellStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCPlainCellStyle.h; sourceTree = "<group>"; };
+		CEB277D32272AF6600798CF0 /* FCPlainCellStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCPlainCellStyle.m; sourceTree = "<group>"; };
+		CEB277EF2272BC0400798CF0 /* FCPlainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCPlainTableViewCell.h; sourceTree = "<group>"; };
+		CEB277F02272BC0400798CF0 /* FCPlainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCPlainTableViewCell.m; sourceTree = "<group>"; };
+		CEB277F52272C7ED00798CF0 /* NSDictionary+FBLFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FBLFunctional.h"; sourceTree = "<group>"; };
+		CEB277F62272C7ED00798CF0 /* NSOrderedSet+FBLFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+FBLFunctional.h"; sourceTree = "<group>"; };
+		CEB277F72272C7ED00798CF0 /* NSArray+FBLFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FBLFunctional.h"; sourceTree = "<group>"; };
+		CEB277F82272C7ED00798CF0 /* FBLFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLFunctional.h; sourceTree = "<group>"; };
+		CEB277F92272C7ED00798CF0 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		CEB277FA2272C7ED00798CF0 /* framework.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = framework.modulemap; sourceTree = "<group>"; };
+		CEB277FB2272C7ED00798CF0 /* NSSet+FBLFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+FBLFunctional.h"; sourceTree = "<group>"; };
+		CEB277FC2272C7ED00798CF0 /* NSDictionary+FBLFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FBLFunctional.m"; sourceTree = "<group>"; };
+		CEB277FD2272C7ED00798CF0 /* NSObject+FBLFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBLFunctional.m"; sourceTree = "<group>"; };
+		CEB279EC227458CB00798CF0 /* FCBottomFloatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBottomFloatViewController.h; sourceTree = "<group>"; };
+		CEB279ED227458CB00798CF0 /* FCBottomFloatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBottomFloatViewController.m; sourceTree = "<group>"; };
+		CEB279EF22745A1F00798CF0 /* FCPlainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCPlainModel.h; sourceTree = "<group>"; };
+		CEB279F022745A1F00798CF0 /* FCPlainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCPlainModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +148,9 @@
 				CEB2775C227190B400798CF0 /* AppDelegate.m */,
 				CEB2775E227190B400798CF0 /* ViewController.h */,
 				CEB2775F227190B400798CF0 /* ViewController.m */,
+				CEB279EC227458CB00798CF0 /* FCBottomFloatViewController.h */,
+				CEB279ED227458CB00798CF0 /* FCBottomFloatViewController.m */,
+				CEB277CE2272ABD900798CF0 /* FCPlainCell */,
 				CEB27771227190C600798CF0 /* Source */,
 				CEB27761227190B400798CF0 /* Main.storyboard */,
 				CEB27764227190B600798CF0 /* Assets.xcassets */,
@@ -243,6 +272,54 @@
 			path = Infra;
 			sourceTree = "<group>";
 		};
+		CEB277CE2272ABD900798CF0 /* FCPlainCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEB277F22272C7ED00798CF0 /* Sources */,
+				CEB277CF2272AC0200798CF0 /* FCPlainCellModel.h */,
+				CEB277D02272AC0200798CF0 /* FCPlainCellModel.m */,
+				CEB277D22272AF6600798CF0 /* FCPlainCellStyle.h */,
+				CEB277D32272AF6600798CF0 /* FCPlainCellStyle.m */,
+				CEB277EF2272BC0400798CF0 /* FCPlainTableViewCell.h */,
+				CEB277F02272BC0400798CF0 /* FCPlainTableViewCell.m */,
+				CEB279EF22745A1F00798CF0 /* FCPlainModel.h */,
+				CEB279F022745A1F00798CF0 /* FCPlainModel.m */,
+			);
+			path = FCPlainCell;
+			sourceTree = "<group>";
+		};
+		CEB277F22272C7ED00798CF0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEB277F32272C7ED00798CF0 /* FBLFunctional */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CEB277F32272C7ED00798CF0 /* FBLFunctional */ = {
+			isa = PBXGroup;
+			children = (
+				CEB277F42272C7ED00798CF0 /* include */,
+				CEB277FC2272C7ED00798CF0 /* NSDictionary+FBLFunctional.m */,
+				CEB277FD2272C7ED00798CF0 /* NSObject+FBLFunctional.m */,
+			);
+			path = FBLFunctional;
+			sourceTree = "<group>";
+		};
+		CEB277F42272C7ED00798CF0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CEB277F52272C7ED00798CF0 /* NSDictionary+FBLFunctional.h */,
+				CEB277F62272C7ED00798CF0 /* NSOrderedSet+FBLFunctional.h */,
+				CEB277F72272C7ED00798CF0 /* NSArray+FBLFunctional.h */,
+				CEB277F82272C7ED00798CF0 /* FBLFunctional.h */,
+				CEB277F92272C7ED00798CF0 /* module.modulemap */,
+				CEB277FA2272C7ED00798CF0 /* framework.modulemap */,
+				CEB277FB2272C7ED00798CF0 /* NSSet+FBLFunctional.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -318,22 +395,29 @@
 				CEB277A22271BA4900798CF0 /* UIButton+FCButtonStyle.m in Sources */,
 				CEB277762271912000798CF0 /* LabelStyle.m in Sources */,
 				CEB2777F2271936E00798CF0 /* ButtonContent.m in Sources */,
+				CEB277D42272AF6600798CF0 /* FCPlainCellStyle.m in Sources */,
 				CEB277B82271C5DC00798CF0 /* FCBackgroundView.m in Sources */,
+				CEB277F12272BC0400798CF0 /* FCPlainTableViewCell.m in Sources */,
 				CEB2779C2271B40C00798CF0 /* UILabel+FCLabelStyle.m in Sources */,
+				CEB277FF2272C7EE00798CF0 /* NSObject+FBLFunctional.m in Sources */,
 				CEB27760227190B400798CF0 /* ViewController.m in Sources */,
 				CEB277CD2271DD9100798CF0 /* UIView+DropShadow.m in Sources */,
 				CEB277CA2271DCB400798CF0 /* CALayer+DropShadow.m in Sources */,
 				CEB277C72271D52E00798CF0 /* FCEntryView.m in Sources */,
+				CEB277D12272AC0200798CF0 /* FCPlainCellModel.m in Sources */,
 				CEB2776B227190B600798CF0 /* main.m in Sources */,
 				CEB2779022719A0E00798CF0 /* FCAttributes.m in Sources */,
 				CEB277A92271C0D700798CF0 /* FCWindow.m in Sources */,
 				CEB2778C2271963F00798CF0 /* FCPopUpMessage.m in Sources */,
 				CEB277B22271C29800798CF0 /* FCStyleView.m in Sources */,
+				CEB277FE2272C7EE00798CF0 /* NSDictionary+FBLFunctional.m in Sources */,
 				CEB277952271AD0300798CF0 /* FCButtonView.m in Sources */,
 				CEB27779227191F700798CF0 /* LabelContent.m in Sources */,
+				CEB279EE227458CB00798CF0 /* FCBottomFloatViewController.m in Sources */,
 				CEB277BE2271CA5200798CF0 /* FCWrapperView.m in Sources */,
 				CEB277AC2271C1CF00798CF0 /* FCRootViewController.m in Sources */,
 				CEB277C42271CB0000798CF0 /* FCContentView.m in Sources */,
+				CEB279F122745A1F00798CF0 /* FCPlainModel.m in Sources */,
 				CEB277A52271BC6800798CF0 /* GradientView.m in Sources */,
 				CEB2775D227190B400798CF0 /* AppDelegate.m in Sources */,
 			);
